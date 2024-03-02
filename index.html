@@ -1,0 +1,70 @@
+<!DOCTYPE html>    <!--  DOCTYPE宣言によりHTMLのバージョンを指定  -->
+
+<html>
+
+    <head>
+        <meta charset="utf-8">    <!--  文字コードの指定  -->
+        <title>ページタイトル</title>
+        <link rel="stylesheet" href="stylesheet.css">    <!--  CSSの読み込み  -->
+    </head>
+
+    <body>
+        <div class="header">    <!--  グループ化(divisionの略)  -->
+            <div class="header-logo">ヘッダーロゴ</div>
+            <div class="header-list">
+                <ul>
+                    <li>ヘッダーリスト１</li>
+                    <li>ヘッダーリスト２</li>
+                    <li>ヘッダーリスト３</li>
+                </ul>
+            </div> 
+        </div>
+
+        <div class="main">
+            <div class="copy-container">
+                <h1>HELLO WORLD<span>.</span></h1>    <!--  span(文中の一部にCSSを適用)  -->
+                <h2>サンプルページ</h2>
+            </div>
+            <div class="contents">
+                <h3 class="section-title">コンテンツ</h3>
+                <div class="contents-item">
+                    <img src="11213_color.png">
+                    <p>HTML & CSS</p>
+                </div>
+                <div class="contents-item">
+                    <img src="15124_color.png">
+                    <p>PHP</p>
+                </div>
+                <div class="contents-item">
+                    <img src="17915_color.png">
+                    <p>Ruby</p>
+                </div>
+                <div class="contents-item">
+                    <img src="18030_color.png">
+                    <p>Swift</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3 class="section-title">お問い合わせ</h3>
+                <p>メールアドレス（必須）</p>
+                <input>    <!--  テキスト入力欄生成(１行) ※終了タグ不要  -->
+                <p>お問い合わせ内容（必須）</p>
+                <textarea></textarea>    <!--  テキスト入力欄生成(複数行)  -->
+                <p>※必須項目は必ずご入力ください</p>
+                <input class="contact-submit" type="submit" value="送信">    <!--  submitで送信ボタン生成(valueでテキスト変更)  -->
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="footer-logo">フッターロゴ</div>
+            <div class="footer-list">
+                <ul>
+                    <li>フッターリスト１</li>
+                    <li>フッターリスト２</li>
+                    <li>フッターリスト３</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+
+</html>
